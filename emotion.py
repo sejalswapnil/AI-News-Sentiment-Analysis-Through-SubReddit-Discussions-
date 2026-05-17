@@ -84,3 +84,4 @@ class EmotionEngine:
             emotion: {"count": counts[emotion], "pct": round(counts[emotion] / total * 100, 1)}
             for emotion in list(EMOTION_LEXICONS.keys()) + ["neutral"]
         }
+    
